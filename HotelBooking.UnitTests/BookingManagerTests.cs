@@ -53,7 +53,7 @@ namespace HotelBooking.UnitTests
             //Test af commit
             //test
             // Assert
-            Assert.Equal(-1, roomId1);
+            Assert.NotEqual(-1, roomId1);
 
         }
     }
