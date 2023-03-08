@@ -2,19 +2,20 @@ using System;
 using HotelBooking.Core;
 using HotelBooking.UnitTests.Fakes;
 using Xunit;
+using Moq;
 
 namespace HotelBooking.UnitTests
 {
-    public class BookingManagerTests
+    public class BookingManagerTestsMock
     {
         private IBookingManager bookingManager;
 
-        public BookingManagerTests(){
+        public BookingManagerTestsMock(){
             DateTime start = DateTime.Today.AddDays(10);
             DateTime end = DateTime.Today.AddDays(20);
-            IRepository<Booking> bookingRepository = new FakeBookingRepository(start, end);
-            IRepository<Room> roomRepository = new FakeRoomRepository();
-            bookingManager = new BookingManager(bookingRepository, roomRepository);
+            Mock<IRepository<Booking>> bookingRepository = new Mock< IRepository < Booking >>();
+            Mock<IRepository<Room>> roomRepository = new Mock<IRepository<Room>>();
+            bookingManager = new BookingManager(bookingRepository.Object, roomRepository.Object);
         }
 
         [Fact]
