@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HotelBooking.Mvc
+build_property.RootNamespace = HotelBooking.Mvc
+build_property.ProjectDir = C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Mvc\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Mvc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Bookings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Bookings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Bookings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Bookings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Bookings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Rooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Rooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Rooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Rooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/londo/source/repos/PBA/SoftwareTesting/MiniProjHotelBooking_Clean/HotelBooking_Clean/HotelBooking.Mvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
