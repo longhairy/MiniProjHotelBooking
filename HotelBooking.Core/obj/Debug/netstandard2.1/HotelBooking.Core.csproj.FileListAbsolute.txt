@@ -1,0 +1,10 @@
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.deps.json
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.dll
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.pdb
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.AssemblyReference.cache
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.AssemblyInfoInputs.cache
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.AssemblyInfo.cs
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.CoreCompileInputs.cache
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.dll
+C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.pdb

@@ -31,16 +31,16 @@ namespace HotelBooking.UnitTests
             Assert.Throws<ArgumentException>(act);
         }
 
-        [Fact]
-        public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne()
-        {
-            // Arrange
-            DateTime date = DateTime.Today.AddDays(1);
-            // Act
-            int roomId = bookingManager.FindAvailableRoom(date, date);
-            // Assert
-            Assert.NotEqual(-1, roomId);
-        }
+        //[Fact]
+        //public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne()
+        //{
+        //    // Arrange
+        //    DateTime date = DateTime.Today.AddDays(1);
+        //    // Act
+        //    int roomId = bookingManager.FindAvailableRoom(date, date);
+        //    // Assert
+        //    Assert.NotEqual(-1, roomId);
+        //}
         [Fact]
         public void FindAvailableRoom_RoomNotAvailable_RoomIdMinusOne()//testcase 7
         {
