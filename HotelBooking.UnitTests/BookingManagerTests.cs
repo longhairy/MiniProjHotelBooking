@@ -10,8 +10,8 @@ namespace HotelBooking.UnitTests
         private IBookingManager bookingManager;
 
         public BookingManagerTests(){
-            DateTime start = DateTime.Today.AddDays(10);
-            DateTime end = DateTime.Today.AddDays(20);
+            DateTime start = DateTime.Today.AddDays(4);
+            DateTime end = DateTime.Today.AddDays(18);
             IRepository<Booking> bookingRepository = new FakeBookingRepository(start, end);
             IRepository<Room> roomRepository = new FakeRoomRepository();
             bookingManager = new BookingManager(bookingRepository, roomRepository);
