@@ -3,6 +3,7 @@ using HotelBooking.Core;
 using HotelBooking.UnitTests.Fakes;
 using Xunit;
 using Moq;
+using System.Collections.Generic;
 
 namespace HotelBooking.UnitTests
 {
@@ -11,11 +12,29 @@ namespace HotelBooking.UnitTests
         private IBookingManager bookingManager;
 
         public BookingManagerTestsMock(){
-            DateTime start = DateTime.Today.AddDays(10);
-            DateTime end = DateTime.Today.AddDays(20);
-            Mock<IRepository<Booking>> bookingRepository = new Mock< IRepository < Booking >>();
+            DateTime start = DateTime.Today.AddDays(4);
+            DateTime end = DateTime.Today.AddDays(18);
+            Mock<IRepository<Booking>> bookingRepository = new Mock<IRepository<Booking>>();
             Mock<IRepository<Room>> roomRepository = new Mock<IRepository<Room>>();
+
+            var bookings = new List<Booking>
+            {
+                new Booking {Id=1, CustomerId=1, StartDate=start, EndDate=end, RoomId=1, IsActive = true},
+                new Booking {Id=2, CustomerId=2, StartDate=start, EndDate=end, RoomId=2, IsActive = true}
+            };
+            bookingRepository.Setup(x => x.GetAll()).Returns(bookings);
+
+            var rooms = new List<Room>
+            {
+                new Room { Id=1, Description="A" },
+                new Room { Id=2, Description="B" },
+            };
+            roomRepository.Setup(x => x.GetAll()).Returns(rooms);
+
+
             bookingManager = new BookingManager(bookingRepository.Object, roomRepository.Object);
+
+
         }
 
         [Fact]
@@ -31,16 +50,16 @@ namespace HotelBooking.UnitTests
             Assert.Throws<ArgumentException>(act);
         }
 
-        //[Fact]
-        //public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne()
-        //{
-        //    // Arrange
-        //    DateTime date = DateTime.Today.AddDays(1);
-        //    // Act
-        //    int roomId = bookingManager.FindAvailableRoom(date, date);
-        //    // Assert
-        //    Assert.NotEqual(-1, roomId);
-        //}
+        [Fact]
+        public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne()
+        {
+            // Arrange
+            DateTime date = DateTime.Today.AddDays(1);
+            // Act
+            int roomId = bookingManager.FindAvailableRoom(date, date);
+            // Assert
+            Assert.NotEqual(-1, roomId);
+        }
         [Fact]
         public void FindAvailableRoom_RoomNotAvailable_RoomIdMinusOne()//testcase 7
         {
