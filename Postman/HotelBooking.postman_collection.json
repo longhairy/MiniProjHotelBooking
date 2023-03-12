@@ -442,7 +442,7 @@
 			"response": []
 		},
 		{
-			"name": "Bookings - Booking 3",
+			"name": "Bookings - Booking 3 Booking in Past",
 			"event": [
 				{
 					"listen": "test",
@@ -484,7 +484,7 @@
 			"response": []
 		},
 		{
-			"name": "Bookings - Booking 4",
+			"name": "Bookings - Booking 4 double booking",
 			"event": [
 				{
 					"listen": "test",
