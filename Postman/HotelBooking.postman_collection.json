@@ -300,14 +300,14 @@
 					"raw": "{\n    \"Name\": \"John Smith\",\n    \"Email\": \"JohnSmith@email.com\"\n}"
 				},
 				"url": {
-					"raw": "https://localhost:5001/Customers",
+					"raw": "https://localhost:5001/customers",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
 					"port": "5001",
 					"path": [
-						"Customers"
+						"customers"
 					]
 				}
 			},
@@ -344,14 +344,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5001/Customers",
+					"raw": "https://localhost:5001/customers",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
 					"port": "5001",
 					"path": [
-						"Customers"
+						"customers"
 					]
 				}
 			},
