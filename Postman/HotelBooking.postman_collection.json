@@ -91,6 +91,48 @@
 			"response": []
 		},
 		{
+			"name": "Customer - Customer 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"description\": \"Room 2\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/rooms",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Bookings - Booking 1",
 			"event": [
 				{
@@ -139,8 +181,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 400\", function () {",
-							"    pm.response.to.have.status(400);",
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
 							"});"
 						],
 						"type": "text/javascript"
@@ -158,7 +200,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"description\": \"Booking 2\"\n}"
+					"raw": "{\n    \"StartDate\": \"2024-12-10T13:49:51.141Z\",\n    \"EndDate\": \"2024-12-12T13:49:51.141Z\",\n    \"IsActive\": true,\n    \"CustomerId\" : 1,\n    \"RoomId\": 2\n}"
 				},
 				"url": {
 					"raw": "https://localhost:5001/bookings",
