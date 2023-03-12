@@ -442,6 +442,90 @@
 			"response": []
 		},
 		{
+			"name": "Bookings - Booking 3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 409\", function () {",
+							"    pm.response.to.have.status(409);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"StartDate\": \"2020-12-10T13:49:51.141Z\",\n    \"EndDate\": \"2020-12-12T13:49:51.141Z\",\n    \"IsActive\": true,\n    \"CustomerId\" : 1,\n    \"RoomId\": 2\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/bookings",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bookings - Booking 4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 409\", function () {",
+							"    pm.response.to.have.status(409);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"StartDate\": \"2024-12-10T13:49:51.141Z\",\n    \"EndDate\": \"2024-12-12T13:49:51.141Z\",\n    \"IsActive\": true,\n    \"CustomerId\" : 1,\n    \"RoomId\": 2\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/bookings",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Bookings",
 			"event": [
 				{
