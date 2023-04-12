@@ -1,5 +1,6 @@
 using System;
 using HotelBooking.Core;
+using HotelBooking.Infrastructure.Repositories;
 using HotelBooking.UnitTests.Fakes;
 using Xunit;
 
@@ -8,7 +9,7 @@ namespace HotelBooking.UnitTests
     public class BookingManagerTests
     {
         private IBookingManager bookingManager;
-
+        private readonly IRepository<Booking> bookingRepository;
         public BookingManagerTests(){
             DateTime start = DateTime.Today.AddDays(4);
             DateTime end = DateTime.Today.AddDays(18);
@@ -56,5 +57,24 @@ namespace HotelBooking.UnitTests
             Assert.Equal(-1, roomId1);
 
         }
+        //[Fact]
+        //public void CreateBooking_ReturnBoolean()
+        //{
+        //    // Arrange
+        //    Booking booking = new Booking();
+
+        //    int roomId = bookingManager.FindAvailableRoom(booking.StartDate, booking.EndDate);
+
+
+        //    // Act 
+        //    booking.RoomId = roomId;
+        //    booking.IsActive = true;
+        //    bookingRepository.Add(booking);
+        //    //Test af commit
+        //    //test
+        //    // Assert
+        //    Assert.NotEqual(-1,booking.RoomId);
+
+        //}
     }
 }

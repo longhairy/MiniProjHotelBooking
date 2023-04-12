@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\HotelBooking.Core.csproj": {}
+    "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\HotelBooking.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\HotelBooking.Core.csproj": {
+    "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\HotelBooking.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\HotelBooking.Core.csproj",
+        "projectUniqueName": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\HotelBooking.Core.csproj",
         "projectName": "HotelBooking.Core",
-        "projectPath": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\HotelBooking.Core.csproj",
-        "packagesPath": "C:\\Users\\londo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\obj\\",
+        "projectPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\HotelBooking.Core.csproj",
+        "packagesPath": "C:\\Users\\WEHBA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\londo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WEHBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

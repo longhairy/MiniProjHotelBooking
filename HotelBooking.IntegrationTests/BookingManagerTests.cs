@@ -18,7 +18,7 @@ namespace HotelBooking.IntegrationTests
 
         SqliteConnection connection;
         BookingManager bookingManager;
-
+        private readonly BookingRepository bookingRepos;
         public BookingManagerTests()
         {
             connection = new SqliteConnection("DataSource=:memory:");
@@ -53,5 +53,26 @@ namespace HotelBooking.IntegrationTests
             // Assert
             Assert.Equal(-1, roomId);
         }
+
+
+        //[Fact]
+        //public void CreateBooking_ReturnBoolean()
+        //{
+        //    // Arrange
+        //    Booking booking = new Booking();
+
+        //    int roomId = bookingManager.FindAvailableRoom(booking.StartDate, booking.EndDate);
+
+
+        //    // Act 
+        //    booking.RoomId = roomId;
+        //    booking.IsActive = true;
+        //    bookingRepos.Add(booking);
+        //    //Test af commit
+        //    //test
+        //    // Assert
+        //    Assert.Equal(-1,booking.RoomId);
+
+        //}
     }
 }
