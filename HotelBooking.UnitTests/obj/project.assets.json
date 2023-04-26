@@ -8379,19 +8379,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WEHBA\\.nuget\\packages\\": {}
+    "C:\\Users\\londo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
       "projectName": "HotelBooking.UnitTests",
-      "projectPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\WEHBA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\londo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\WEHBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\londo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8405,11 +8405,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\HotelBooking.Core.csproj": {
-              "projectPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.Core\\HotelBooking.Core.csproj"
+            "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\HotelBooking.Core.csproj": {
+              "projectPath": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.Core\\HotelBooking.Core.csproj"
             },
-            "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj": {
-              "projectPath": "C:\\Users\\WEHBA\\OneDrive\\Skrivebord\\hotel-clean\\FremLægge\\MiniProjHotelBooking\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj"
+            "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj": {
+              "projectPath": "C:\\Users\\londo\\source\\repos\\PBA\\SoftwareTesting\\MiniProjHotelBooking_Clean\\HotelBooking_Clean\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj"
             }
           }
         }
@@ -8459,7 +8459,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

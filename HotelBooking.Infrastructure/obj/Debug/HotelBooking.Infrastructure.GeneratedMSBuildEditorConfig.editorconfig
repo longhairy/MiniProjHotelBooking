@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HotelBooking.Infrastructure
-build_property.ProjectDir = C:\Users\WEHBA\OneDrive\Skrivebord\hotel-clean\FremLægge\MiniProjHotelBooking\HotelBooking.Infrastructure\
+build_property.ProjectDir = C:\Users\londo\source\repos\PBA\SoftwareTesting\MiniProjHotelBooking_Clean\HotelBooking_Clean\HotelBooking.Infrastructure\
